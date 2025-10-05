@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1758884690 source:c:\users\hi\onedrive\documents\codeblockproject\list\main.cpp
+	<iostream>
+	"list.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\list\list.h
+	<iostream>
+
+1758884690 source:c:\users\hi\onedrive\documents\codeblockproject\queue\main.cpp
+	<iostream>
+	"list.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\queue\list.h
+	<iostream>
+
+1759678094 source:c:\users\hi\onedrive\documents\codeblockproject\stack\main.cpp
+	<iostream>
+	"Stack.h"
+
+1759678320 c:\users\hi\onedrive\documents\codeblockproject\stack\stack.h
+	<iostream>
+	"list.h"
+	"LinkedList.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\stack\list.h
+	<iostream>
+
+1759653766 c:\users\hi\onedrive\documents\codeblockproject\stack\linkedlist.h
+	<iostream>
+
+1759678094 source:c:\users\hi\onedrive\documents\codeblockproject\week2\stack\main.cpp
+	<iostream>
+	"Stack.h"
+
+1759678320 c:\users\hi\onedrive\documents\codeblockproject\week2\stack\stack.h
+	<iostream>
+	"list.h"
+	"LinkedList.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\week2\stack\list.h
+	<iostream>
+
+1759653766 c:\users\hi\onedrive\documents\codeblockproject\week2\stack\linkedlist.h
+	<iostream>
+

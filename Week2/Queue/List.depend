@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1758884690 source:c:\users\hi\onedrive\documents\codeblockproject\list\main.cpp
+	<iostream>
+	"list.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\list\list.h
+	<iostream>
+
+1758884690 source:c:\users\hi\onedrive\documents\codeblockproject\queue\main.cpp
+	<iostream>
+	"list.h"
+
+1759046991 c:\users\hi\onedrive\documents\codeblockproject\queue\list.h
+	<iostream>
+
