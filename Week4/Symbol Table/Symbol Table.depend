@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1761234203 source:c:\users\hi\onedrive\documents\codeblockproject\symbol table\main.cpp
+	<iostream>
+	"linkedlist_symbol.h"
+
+1761234203 c:\users\hi\onedrive\documents\codeblockproject\symbol table\linkedlist_symbol.h
+	<iostream>
+	<string>
+
