@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1761231885 source:c:\users\hi\onedrive\documents\codeblockproject\dsa_bt_tuan\week4\binarysearchtree\main.cpp
+	<iostream>
+	"BST.h"
+
+1761231885 c:\users\hi\onedrive\documents\codeblockproject\dsa_bt_tuan\week4\binarysearchtree\bst.h
+	<iostream>
+
