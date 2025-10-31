@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1761908012 source:c:\users\hi\onedrive\documents\codeblockproject\symboltable - updated\main.cpp
+	<iostream>
+	"../SymbolTable.h"
+
+1761907974 c:\users\hi\onedrive\documents\codeblockproject\symboltable.h
+	<iostream>
+
