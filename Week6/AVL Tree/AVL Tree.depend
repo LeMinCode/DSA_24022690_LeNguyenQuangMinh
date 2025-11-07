@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1762508606 source:c:\users\hi\onedrive\documents\codeblockproject\avl tree\main.cpp
+	<iostream>
+	"AVLTREE.h"
+
+1762508668 c:\users\hi\onedrive\documents\codeblockproject\avl tree\avltree.h
+	<iostream>
+	<algorithm>
+
