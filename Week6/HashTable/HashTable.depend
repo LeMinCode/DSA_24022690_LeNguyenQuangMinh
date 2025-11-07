@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1762510143 source:c:\users\hi\onedrive\documents\codeblockproject\hashtable\main.cpp
+	<iostream>
+	"Hash.h"
+	"LinkedList.h"
+
+1762510332 c:\users\hi\onedrive\documents\codeblockproject\hashtable\hash.h
+	<iostream>
+	"LinkedList.h"
+
+1762510426 c:\users\hi\onedrive\documents\codeblockproject\hashtable\linkedlist.h
+	<iostream>
+
