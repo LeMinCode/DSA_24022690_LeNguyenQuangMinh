@@ -26,27 +26,27 @@ struct Graph {
         for(int i = 0;i < V;i++) {
             cout << i << " :";
             for(int v : adj[i]) {
-                cout << v << " "; //in ra số đỉnh v kề với từng đỉnh i
+                cout << v << " ";
             }
-            cout << endl; //xuống dòng mỗi lần in xong đỉnh kề của một 1 đỉnh
+            cout << endl;
         }
     }
 
     //DFS
-    void DFSmethod(int u, vector<bool> &visited) { //u đỉnh đang duyệt, vector visit dùng & để tránh kết quả cập nhập sai trong lần đệ quy sau
-        visited[u] = true; //đánh dấu là đã thăm tránh lập chu trình
-        cout << u << " "; //duyệt
+    void DFSmethod(int u, vector<bool> &visited) {
+        visited[u] = true;
+        cout << u << " ";
 
         for(int v : adj[u]) {
             if(!visited[v]) {
-                DFSmethod(v, visited); //duyệt hết tất cả các đỉnh kề đến sâu nhất sau đó đệ quy sẽ quay lại gọi tiếp các đỉnh kề với u
+                DFSmethod(v, visited);
             }
         }
     }
 
     void DFS(int start) {
         vector<bool> visited(V, false);
-        DFSmethod(start, visited); //bắt đầu từ start
+        DFSmethod(start, visited);
     }
 
     //BFS
@@ -55,7 +55,7 @@ struct Graph {
         queue<int> q;
 
         visited[start] = true;
-        q.push(start); //đặt start = true đẩy vào queue
+        q.push(start);
 
         while(!q.empty()) {
            int u = q.front();
@@ -65,7 +65,7 @@ struct Graph {
         for(int v : adj[u]) {
             if(!visited[v]) {
                 visited[v] = true;
-                q.push(v); //đẩy tất cả các đỉnh kề vào queue
+                q.push(v);
                 }
             }
         }
